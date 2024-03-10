@@ -1,0 +1,24 @@
+.bg-light {
+    background-color: transparent !important;
+}
+.header-portfolio {
+    color: #ffffff;
+    font-size: 1.5vmax;
+    font-family: monospace;
+    margin: 0px 1vw;
+}
+.navbar {
+    position: relative;
+  margin-top: 2px 0px;
+  background-color: rgba(0,0,0,0.5); /* Semi-transparent black */
+  color: white;
+  /* Additional styling */
+  display: flex;
+  z-index: 1;
+  
+}
+.logo{
+    width: 0.25vw;
+    background-color:#2AD87F;
+}
+

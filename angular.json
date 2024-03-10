@@ -16,6 +16,7 @@
             "outputPath": "dist/portfolio",
             "index": "src/index.html",
             "browser": "src/main.ts",
+            "baseHref": "/aneesh-portfolio/",
             "polyfills": [
               "zone.js"
             ],
@@ -25,9 +26,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/bootstrap-icons/font/bootstrap-icons.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "/node_modules/jquery/dist/jquery.min.js",
+              "/node_modules/popper.js/dist/umd/popper.min.js",
+              "/node_modules/bootstrap/dist/js/bootstrap.min.js",
+          
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -96,5 +105,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "c6b5d0f2-66cf-4f18-aa34-150312f15422"
   }
 }

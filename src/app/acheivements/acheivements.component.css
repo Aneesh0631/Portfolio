@@ -1,0 +1,34 @@
+.card{
+    display: flex;
+    height: 50vmin  ;
+    background-color: transparent;
+    border: transparent;
+}:host {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 93vh;
+  }
+.box{
+    width: 21vw;
+    height: auto;
+    background-color: white;
+    margin: 2vh 5vw;
+    object-fit: cover;
+}
+.description{
+    background-color:#2AD87F;
+    z-index: 1;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+    flex-direction: column;
+    display: grid;
+    color: white;
+}
+p{
+    font-size: 2vmin;
+}
+img{
+    object-fit: contain;
+}

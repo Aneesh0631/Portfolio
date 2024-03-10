@@ -1,0 +1,55 @@
+.banner{
+    background:linear-gradient(90deg,#1E242B  60%,   #2AD87F 40%);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+}
+.personal-details{
+    background-color: #1E242B;
+    height: 100%;
+}
+.project-details{
+  background-color: #1E242B;
+  height: 80vh;
+}
+.acheivements{
+  background: #1E242B;
+  height: 100%;
+}
+.experience{
+  background-color: #1E242B;
+}
+.animated-component {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Add a transition for smooth fade-in/fade-out and transform effect */
+  }
+  .animate {
+    opacity: 1;
+    transform: translateY(100%); /* Change translateY to your desired offset */
+    animation: moveDown 2s ease-in-out;
+  }
+
+  @keyframes moveDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100%); /* Change translateY to your desired offset */
+    }
+  }
+
+  @media only screen and (max-width : 600px) {
+    .about-schooling{
+        background:linear-gradient(180deg, #00203FFF 50%, #4cc9f0 50%);
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+  }

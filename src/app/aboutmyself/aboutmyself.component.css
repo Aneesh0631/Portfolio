@@ -1,0 +1,90 @@
+
+.container{
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}:host {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-height: 100%;
+}
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+.side-2{
+  background-color: #2AD87F;
+  height: 100%;
+}
+
+
+  .text-area{
+    height: 30vh;
+    padding: 1vh 10vw;
+  }
+
+  .text-area span{
+    color: black;
+  }
+
+   
+  .text-box{
+    color: #ffffff;
+    margin-top: 10px;   
+}
+.text-box span{
+  font-family: auto;
+  font-size: 2.5vmin;
+  font-weight: 100;
+}
+.progress {
+  display: -ms-flexbox;
+  display: flex;
+  height: 2.3vmax !important;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 1;
+  font-size: .75rem;
+  background-color: #484F58;
+  border-radius: 0.25rem;
+}
+.progress-bar-bootstrap{
+  margin: 0;
+}
+.progress-bar-bootstrap h2{
+  font-size: 2.5vmin;
+  color: white;
+}
+.progress-bar{
+  background-color: #2AD87F;
+}
+
+.line{
+
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+} 
