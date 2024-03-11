@@ -76,6 +76,12 @@
   position: relative;
   left:4vw;
   font-size: 2vmin;
+}a{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1vmax;
+  text-decoration: none;
 }
 .btn:hover{
   

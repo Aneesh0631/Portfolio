@@ -34,6 +34,10 @@
     transform: translateY(100%); /* Change translateY to your desired offset */
     animation: moveDown 2s ease-in-out;
   }
+  .contact{
+    background: #1E242B;
+
+  }
 
   @keyframes moveDown {
     0% {
